@@ -1,7 +1,5 @@
-cat-bacon-zombie-wp
-===================
-
 CBZ Auto Create Posts
+===================
 
 A WordPress plugin that auto generates loriem ipsum posts in cat, bacon or zombie.
 
