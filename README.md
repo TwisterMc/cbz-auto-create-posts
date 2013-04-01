@@ -3,8 +3,8 @@ CBZ Auto Create Posts
 
 A WordPress plugin that auto generates loriem ipsum posts in cat, bacon or zombie.
 
-To Install: 
-1. Download the zip file and upload the whole folder to your plugins directory. 
+To Install:
+1. Download the zip file and upload the whole folder to your plugins directory.
 2. Activate.
 3. CBZ Auto Create Posts will then show up under the Tools menu in WordPress.
 

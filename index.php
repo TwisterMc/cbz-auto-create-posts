@@ -56,8 +56,9 @@ function autopost_options_subpanel() {
 
 <link rel='stylesheet' href='<?php echo plugins_url('css/style.css',__FILE__); ?>' type='text/css' media='all' />
 
-<div class="wrap">
+<div class="wrap cbz_wrap">
     <h2>Cat, Bacon &amp; Zombie Lorem Ipsum - Auto Create Posts</h2>
+    <div class="cbz_logo"><img src="<?php echo plugins_url('images/logo.jpg',__FILE__); ?>" /></div>
     <?php if ($cbz_success) {
         echo '<div class="updated"><p><strong>Success! Your '.$cbz_maxPosts.' '.$cbz_ipsumType.' Posts have been created!</strong></p></div>';
     } ?>
@@ -84,7 +85,7 @@ function autopost_options_subpanel() {
         <li><a href="http://www.zombieipsum.com/" target="_blank">Zombie Ipsum: Frightful Filler for Your Damned Designs</a></li>
     </ul>
     
-    <div class="author">Created by <a href="http://www.twistermc.com/" target="_blank">TwisterMc</a></div>
+    <div class="cbz_author">Created by <a href="http://www.twistermc.com/" target="_blank">TwisterMc</a></div>
 </div>
 
 <?php } ?>

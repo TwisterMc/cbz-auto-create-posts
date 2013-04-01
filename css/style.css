@@ -1,11 +1,15 @@
-label { 
+.cbz_logo {
+    float: right;
+}
+
+.cbz_wrap label { 
     margin-right: 20px; 
 }
 
-form {
+.cbz_wrap form {
     margin-bottom: 20px;
 }
 
-.author {
+.cbz_author {
     font-weight: bold;
 }
