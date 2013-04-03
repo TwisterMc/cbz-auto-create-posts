@@ -13,8 +13,9 @@ License: GPL2
 add_action('admin_menu', 'autopost_add_pages');
 
 function autopost_add_pages() {
-    if (function_exists('add_submenu_page'))
-        add_submenu_page('tools.php', __('CBZ Auto Create Posts'), __('CBZ Auto Create Posts'), 1, __FILE__, 'autopost_options_subpanel');
+    if (function_exists('add_submenu_page')) {
+        add_submenu_page('tools.php', __('CBZ Auto Create Posts'), __('CBZ Auto Create Posts'), 'manage-options', __FILE__, 'autopost_options_subpanel');
+    }
 }
 
 function autopost_options_subpanel() { 
@@ -88,4 +89,5 @@ function autopost_options_subpanel() {
     <div class="cbz_author">Created by <a href="http://www.twistermc.com/" target="_blank">TwisterMc</a></div>
 </div>
 
-<?php } ?>
+<?php 
+}
